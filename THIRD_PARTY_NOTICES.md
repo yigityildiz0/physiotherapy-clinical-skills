@@ -1,0 +1,8 @@
+# Third-party notices
+
+## Current collection: provenance and license scope
+
+The source tree and per-module LICENSE/NOTICE files are included. Existing license grants govern their own files; this collection does not relicense copied material. Missing explicit grants are marked as not specified, not assumed to be MIT.
+
+- `medical-evidence-research`: `modules/content-access/LICENSE`, `modules/scientific-literature-review/LICENSE.txt`
+- `physio-clinical-copilot`: `LICENSE`

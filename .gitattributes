@@ -2,3 +2,12 @@
 *.zip -text
 **/LICENSE* -text
 **/NOTICE* -text
+
+# CURRENT PROVIDER PAYLOAD BYTES
+# Packages and checked-out provider sources must have identical bytes on every OS.
+skills/common/medical-evidence-research/** -text
+skills/codex/medical-evidence-research/** -text
+skills/claude/medical-evidence-research/** -text
+skills/common/physio-clinical-copilot/** -text
+skills/codex/physio-clinical-copilot/** -text
+skills/claude/physio-clinical-copilot/** -text

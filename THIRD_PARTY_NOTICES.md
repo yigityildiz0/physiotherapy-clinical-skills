@@ -1,8 +1,12 @@
-# Third-party notices
+# Current source notices / Güncel kaynak bildirimleri
 
-## Current collection: provenance and license scope
+Original license files stay with source; missing evidence is not an MIT grant. Historical records remain in Git history.
 
-The source tree and per-module LICENSE/NOTICE files are included. Existing license grants govern their own files; this collection does not relicense copied material. Missing explicit grants are marked as not specified, not assumed to be MIT.
+| Skill | Root notices | Evidence status |
+|---|---|---|
+| academic-study-coach | not supplied / sağlanmamış | root-license-not-specified |
+| medical-evidence-research | not supplied / sağlanmamış | root-license-not-specified |
+| mental-health-crisis-support | not supplied / sağlanmamış | root-license-not-specified |
+| physio-clinical-copilot | [LICENSE](skills/common/physio-clinical-copilot/LICENSE) | evidence-present-scope-review |
 
-- `medical-evidence-research`: `modules/content-access/LICENSE`, `modules/scientific-literature-review/LICENSE.txt`
-- `physio-clinical-copilot`: `LICENSE`
+See provenance-current.json for file hashes, module notices and portability adaptations. Root evidence is not blanket rights clearance.

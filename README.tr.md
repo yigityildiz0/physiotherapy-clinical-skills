@@ -1,42 +1,65 @@
-<!-- CURRENT-SKILL-PUBLICATION -->
-![Physiotherapy Clinical Skills](assets/collection-hero.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="1280" alt="Physiotherapy &amp; Clinical Skills — clear questions, repeatable workflows, reviewable results">
+</picture>
 
-# Physiotherapy Clinical Skills
+# Physiotherapy & Clinical Skills
 
-2 skill: kaynak araştırma, araç seçimi ve doğrulanabilir sonuç üretme için hazır iş akışları. Modelin ağırlıklarını değiştirmez; sonuç kalitesi kullanılan kaynaklara ve araçlara bağlıdır.
+[English](README.md) · [Türkçe](README.tr.md)
 
-[![Download ChatGPT](https://img.shields.io/badge/ChatGPT-Download_ZIP-10a37f?style=for-the-badge)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/raw/refs/heads/main/downloads/ChatGPT.zip) [![Download Claude](https://img.shields.io/badge/Claude-Download_ZIP-d97757?style=for-the-badge)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/raw/refs/heads/main/downloads/Claude.zip)
+**Klinik akıl yürütme, rehabilitasyon kanıtları, öğrenme ve kriz desteği iş akışları.**
 
-**ChatGPT:** bütün listelenen skilleri içeren eklenti paketini indir; hesabının desteklediği kişisel eklenti/skill içe aktarma akışını kullan. Tek-skill ChatGPT bağlantısı, tek skill içeren eklenti ZIP’idir. **Claude:** toplu ZIP’i aç, içindeki tekil skill ZIP’lerini ayrı ayrı yükle. Dış ZIP tek bir Claude skill’i değildir. Yerel kurulum bulut hesabına yükleme yapmaz.
+4 bakımı sürdürülen giriş noktası. Göreve göre birini seç; tüm kütüphaneyi bağlama yükleme.
 
-Türkçe veya İngilizce doğal isteklerle kullan: “literatür tara / search literature”, “makale değerlendir / appraise paper”, “fizyo vakasını analiz et / assess physio case”. Kısa kelimeler seçim ipuçlarıdır; bütün platformlarda aynı slash menüsünü oluşturmaz. Mevcut iş akışları ve güvenlik kuralları korunmuştur.
+[Başla](docs/INSTALL.md) · [Katalog](https://yigityildiz0.github.io/universal-ai-skill-library/) · [İndirmeler](DOWNLOADS.md) · [Bakım modeli](MAINTAINING.md)
 
-## Skill listesi
+## Yapmak istediğin işi seç
 
-| Skill | Çözdüğü sorun / örnek istek | ChatGPT | Claude |
-|---|---|---|---|
-| [`medical-evidence-research`](skills/common/medical-evidence-research/SKILL.md) | Literatür tara; makaleyi değerlendir; güncel kanıtı bul | [↓ ZIP](packages/chatgpt/medical-evidence-research.zip) | [↓ ZIP](packages/claude/medical-evidence-research.zip) |
-| [`physio-clinical-copilot`](skills/common/physio-clinical-copilot/SKILL.md) | Fizyo vakasını analiz et; rehabilitasyon planla | [↓ ZIP](packages/chatgpt/physio-clinical-copilot.zip) | [↓ ZIP](packages/claude/physio-clinical-copilot.zip) |
+<details open>
+<summary><strong>Öğrenme ve yazı</strong> · 1</summary>
 
-## Teknik bilgiler
+| Skill | Ne işe yarar? |
+|---|---|
+| [academic-study-coach](docs/skills/academic-study-coach.tr.md) | Ders içeriğini çalışma planına, aktif hatırlamaya ve literatür okuma pratiğine dönüştürür. |
 
-Claude açıklamaları en fazla 200 karakterdir; her skill paketi en fazla 200 dosya içerir. Kaynaklar, yardımcı betikler ve lisanslar paketlenir. API anahtarları, ücretli erişim, yerel CLI ve canlı veri bağlantıları paketin parçası değildir. Kontroller paket yapısını ve kaynak eşleşmesini doğrular; hesapta yükleme, klinik doğruluk veya yatırım performansı testi yapıldığı anlamına gelmez. [Bütünlük değerleri](downloads/SHA256SUMS.txt) · [Kaynak ve lisans bilgisi](THIRD_PARTY_NOTICES.md).
+</details>
 
-Klinik çıktılarda özet/tam metin, çalışma kalitesi/raporlama, istatistiksel anlamlılık/klinik önem ayrılır. Skill bireysel tanı koymaz ve klinisyenin yerini almaz.
+<details open>
+<summary><strong>Sağlık ve rehabilitasyon</strong> · 3</summary>
 
+| Skill | Ne işe yarar? |
+|---|---|
+| [medical-evidence-research](docs/skills/medical-evidence-research.tr.md) | Rehabilitasyon ve Türkiye uygulanabilirliği dahil tıbbi kanıtı arar, değerlendirir ve sentezler. |
+| [mental-health-crisis-support](docs/skills/mental-health-crisis-support.tr.md) | Ruh sağlığı kriz işaretlerine sakin ve güvenlik odaklı yanıt vermeyi destekler. |
+| [physio-clinical-copilot](docs/skills/physio-clinical-copilot.tr.md) | Klinisyen kontrolündeki rehabilitasyon akıl yürütmesi, değerlendirme ve taslak planlamayı destekler. |
 
-## From question to defensible evidence / Sorudan kanıta
+</details>
 
-1. Define a PICO/PECO or diagnostic/measurement question, population, outcomes and eligibility criteria.
-2. Search PubMed/MEDLINE and relevant PEDro, DiTA, Cochrane/CENTRAL and allied-health sources. Combine controlled vocabulary with text synonyms; translate syntax per database. Add Turkish/English TR Dizin, DergiPark and YÖK searches when relevant.
-3. Record database, exact query, date, filters and retrieval count; deduplicate and explain screening decisions. Track access limits rather than claiming inaccessible sources were searched.
-4. Verify DOI/PMID, publication version, peer review, corrections/retractions and full-text access. Use study-design-appropriate appraisal; separate risk of bias from reporting quality, effect sizes from p-values, and ICC/SEM/MDC/MCID from each other.
-5. Compare supporting and conflicting findings, applicability, uncertainty and clinical importance. Do not present an abstract-only read as a full-text appraisal. Reuse a saved query for updates; actual recurring alerts require user scheduling authorization.
+## Bir skill nasıl çalışır?
 
-See the skill's [source map](skills/common/medical-evidence-research/references/source-map.md) and [search strategy](skills/common/medical-evidence-research/references/search-strategy.md). Youthall and Marmara's supplied pages are discovery guides; DergiPark hosts journals. None replaces study-level appraisal.
+~~~mermaid
+flowchart LR
+ A[Your goal] --> B[Match the skill]
+ B --> C[Load relevant module]
+ C --> D[Use available tools]
+ D --> E[Verify and explain]
+~~~
 
-Türkçe örnek: “Literatür tara: donuk omuzda egzersiz dozu; arama dizgilerini göster, karşıt çalışmaları da bul ve klinik önemi açıkla.”
-English example: “Appraise this rehabilitation paper; verify its version, methods, effect sizes, bias and applicability, and label any unavailable full text.”
+Bu bir iş akışıdır; araç çalıştırıldığı veya bütün sonuçların doğrulandığı iddiası değildir. Her skill sayfasında örnek istek, tetikleme, mekanik, girdi/çıktı ve kaynak modüller var.
 
-<!-- END-CURRENT-SKILL-PUBLICATION -->
+## Tek kaynak, kalıcı koleksiyonlar
 
+Ana kaynak [Universal AI Skill Library](https://github.com/yigityildiz0/universal-ai-skill-library). Alan depoları aynı sürümün seçilmiş görünümleridir; ayrı ayrı çatallanıp elle düzenlenmez. Mevcut bağlantılar ve geçmiş korunur.
+
+[All collections / Tüm koleksiyonlar](COLLECTIONS.md) · [Legacy/community resources](LEGACY.md) · [Licenses & provenance](docs/LICENSE-SCOPE.md)
+
+## Dürüst kapsam
+
+- Skill kurmak model eğitmek veya hesap/araç bağlamak değildir.
+- Yerel dosya ile web hesabına yükleme farklıdır; desteklenen host akışını kullan.
+- Ek ücretli API veya model indirme otomatik yapılmaz.
+- Eski topluluk kataloğu güncel giriş noktalarının sayısına veya test iddiasına dahil değildir.
+- Kaynak lisansları korunur; bütün üçüncü taraf içeriğine tek lisans varsayılmaz.
+
+---
+Maintained by [Yigit Yildiz](https://github.com/yigityildiz0) · Source edition 2026.10.11

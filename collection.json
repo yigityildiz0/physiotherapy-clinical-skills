@@ -1,0 +1,21 @@
+{
+  "title": "Physiotherapy & Clinical Skills",
+  "summary": "Clinical reasoning, rehabilitation evidence, study support and crisis response workflows.",
+  "summary_tr": "Klinik akıl yürütme, rehabilitasyon kanıtları, öğrenme ve kriz desteği iş akışları.",
+  "skills": [
+    "academic-study-coach",
+    "medical-evidence-research",
+    "mental-health-crisis-support",
+    "physio-clinical-copilot"
+  ],
+  "topics": [
+    "agent-skills",
+    "physiotherapy",
+    "rehabilitation",
+    "clinical-reasoning",
+    "evidence-based"
+  ],
+  "repository": "physiotherapy-clinical-skills",
+  "base_commit": "3f4b489eb9c734a271c0b0c63012801229dbf900",
+  "canonical_repository": "universal-ai-skill-library"
+}

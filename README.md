@@ -1,46 +1,65 @@
-<!-- CURRENT-SKILL-PUBLICATION -->
-![Physiotherapy Clinical Skills](assets/collection-hero.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="1280" alt="Physiotherapy &amp; Clinical Skills — clear questions, repeatable workflows, reviewable results">
+</picture>
 
-# Physiotherapy Clinical Skills
+# Physiotherapy & Clinical Skills
 
-Evidence search, clinical reasoning and rehabilitation. These **2 workflows** help the assistant select tools, check evidence and produce reviewable results. They do not change model weights or guarantee better decisions.
+[English](README.md) · [Türkçe](README.tr.md)
 
-[![Download ChatGPT](https://img.shields.io/badge/ChatGPT-Download_ZIP-10a37f?style=for-the-badge)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/raw/refs/heads/main/downloads/ChatGPT.zip) [![Download Claude](https://img.shields.io/badge/Claude-Download_ZIP-d97757?style=for-the-badge)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/raw/refs/heads/main/downloads/Claude.zip)
+**Clinical reasoning, rehabilitation evidence, study support and crisis response workflows.**
 
-**ChatGPT:** the button downloads a plugin with all listed skills and supporting files. Use the personal-plugin/skill import supported by your account. A single-skill ChatGPT button downloads a one-skill plugin. **Claude:** unpack the collection ZIP, then upload its individual skill ZIPs; the outer collection is not a single Claude skill. Local Codex/Claude Code files and cloud-account installation are separate.
+4 maintained entry points. Choose one for the job; do not load the entire library into context.
 
-Use natural English or Turkish requests. For medical workflows: “literatür: frozen shoulder exercises”, “literature: exercise dose”, “makale/paper: DOI”, “fizyo/physio: case”. A slash-prefixed word typed in chat does not register a host command. Explicit local skill invocation uses the canonical skill name; available tools, network access and credentials remain host-dependent.
+[Start here](docs/INSTALL.md) · [Browse the catalog](https://yigityildiz0.github.io/universal-ai-skill-library/) · [Downloads](DOWNLOADS.md) · [Maintenance model](MAINTAINING.md)
 
-## Included skills
+## Start with the work you want to do
 
-| Skill | What it solves / example request | ChatGPT | Claude |
-|---|---|---|---|
-| [`medical-evidence-research`](skills/common/medical-evidence-research/SKILL.md) | Search PubMed/PEDro, appraise papers and track evidence | [↓ ZIP](packages/chatgpt/medical-evidence-research.zip) | [↓ ZIP](packages/claude/medical-evidence-research.zip) |
-| [`physio-clinical-copilot`](skills/common/physio-clinical-copilot/SKILL.md) | Reason through cases, measures, rehabilitation and patient education | [↓ ZIP](packages/chatgpt/physio-clinical-copilot.zip) | [↓ ZIP](packages/claude/physio-clinical-copilot.zip) |
+<details open>
+<summary><strong>Learn & write</strong> · 1</summary>
 
-## Installation and technical boundaries
+| Skill | What it helps with |
+|---|---|
+| [academic-study-coach](docs/skills/academic-study-coach.en.md) | Turn course material into a study plan, active recall and literature-reading practice. |
 
-- Full canonical sources: `skills/common/`; provider packages: `packages/chatgpt/`, `packages/claude/`, `packages/codex/`.
-- Every Claude skill has at most 200 files and a description of at most 200 characters. ZIPs include all files of the selected provider source.
-- External services (Gemini, Parallel, Context7), local CLIs and subscriptions are not provided by these ZIPs. Report missing tools rather than simulating access.
-- Validation checks package integrity, paths, descriptions, source/package parity and hashes. It is not a live account-installation test or a clinical/financial effectiveness claim.
-- See [checksums](downloads/SHA256SUMS.txt), [provenance](PUBLICATION.md), and [third-party notices](THIRD_PARTY_NOTICES.md). Existing license and copyright files retain their scope; there is no blanket license grant over third-party content.
+</details>
 
-Clinical outputs distinguish abstracts from full texts, study quality from reporting, and statistical significance from clinical importance. Evidence workflows support professional judgment; they do not diagnose an individual or replace a clinician.
+<details open>
+<summary><strong>Health & rehabilitation</strong> · 3</summary>
 
+| Skill | What it helps with |
+|---|---|
+| [medical-evidence-research](docs/skills/medical-evidence-research.en.md) | Search, appraise and synthesize medical evidence, including rehabilitation and Türkiye applicability. |
+| [mental-health-crisis-support](docs/skills/mental-health-crisis-support.en.md) | Support a calm, safety-oriented response to mental-health crisis signals. |
+| [physio-clinical-copilot](docs/skills/physio-clinical-copilot.en.md) | Support clinician-reviewed rehabilitation reasoning, assessment and draft planning. |
 
-## From question to defensible evidence / Sorudan kanıta
+</details>
 
-1. Define a PICO/PECO or diagnostic/measurement question, population, outcomes and eligibility criteria.
-2. Search PubMed/MEDLINE and relevant PEDro, DiTA, Cochrane/CENTRAL and allied-health sources. Combine controlled vocabulary with text synonyms; translate syntax per database. Add Turkish/English TR Dizin, DergiPark and YÖK searches when relevant.
-3. Record database, exact query, date, filters and retrieval count; deduplicate and explain screening decisions. Track access limits rather than claiming inaccessible sources were searched.
-4. Verify DOI/PMID, publication version, peer review, corrections/retractions and full-text access. Use study-design-appropriate appraisal; separate risk of bias from reporting quality, effect sizes from p-values, and ICC/SEM/MDC/MCID from each other.
-5. Compare supporting and conflicting findings, applicability, uncertainty and clinical importance. Do not present an abstract-only read as a full-text appraisal. Reuse a saved query for updates; actual recurring alerts require user scheduling authorization.
+## What happens when a skill runs?
 
-See the skill's [source map](skills/common/medical-evidence-research/references/source-map.md) and [search strategy](skills/common/medical-evidence-research/references/search-strategy.md). Youthall and Marmara's supplied pages are discovery guides; DergiPark hosts journals. None replaces study-level appraisal.
+~~~mermaid
+flowchart LR
+ A[Your goal] --> B[Match the skill]
+ B --> C[Load relevant module]
+ C --> D[Use available tools]
+ D --> E[Verify and explain]
+~~~
 
-Türkçe örnek: “Literatür tara: donuk omuzda egzersiz dozu; arama dizgilerini göster, karşıt çalışmaları da bul ve klinik önemi açıkla.”
-English example: “Appraise this rehabilitation paper; verify its version, methods, effect sizes, bias and applicability, and label any unavailable full text.”
+This is the workflow, not a claim that tools ran or every result is verified. Each skill page explains an example request, trigger, mechanics, inputs/outputs and source modules.
 
-<!-- END-CURRENT-SKILL-PUBLICATION -->
+## One source. Durable collections.
 
+The canonical source is [Universal AI Skill Library](https://github.com/yigityildiz0/universal-ai-skill-library). Domain repositories are selected views of the same release—not independently edited forks. Existing links and history stay intact.
+
+[All collections / Tüm koleksiyonlar](COLLECTIONS.md) · [Legacy/community resources](LEGACY.md) · [Licenses & provenance](docs/LICENSE-SCOPE.md)
+
+## Honest scope
+
+- Installing a skill does not train a model or connect an account/tool.
+- Local files and a web-account import are different; follow the supported host flow.
+- No automatic extra billed API or model download.
+- The historical community catalog is not counted as maintained or claimed as runtime-tested.
+- Source licenses remain attached; no blanket third-party license is assumed.
+
+---
+Maintained by [Yigit Yildiz](https://github.com/yigityildiz0) · Source edition 2026.10.11

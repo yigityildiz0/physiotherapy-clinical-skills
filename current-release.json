@@ -1,0 +1,36 @@
+{
+  "edition": "2026.10.11",
+  "repository": "physiotherapy-clinical-skills",
+  "canonical": "universal-ai-skill-library",
+  "skills": [
+    "academic-study-coach",
+    "medical-evidence-research",
+    "mental-health-crisis-support",
+    "physio-clinical-copilot"
+  ],
+  "claude_parts": {
+    "academic-study-coach": 1,
+    "medical-evidence-research": 1,
+    "mental-health-crisis-support": 1,
+    "physio-clinical-copilot": 1
+  },
+  "artifact_sha256": {
+    "downloads/ChatGPT.zip": "254dfa4e673c134c9e530834d8180157650bf77a4b5587a2ccc0a7b8b1a16871",
+    "downloads/Claude.zip": "6ffd90aff241b6411d673473f5de933618a0beb335d5ed0a20011177dd55e503",
+    "downloads/Codex.zip": "ebfa278dc57e78c0fa2edf4262ad6cc139925da2039ade30a452f808c162111c",
+    "downloads/portable-skills.zip": "0f7fbae964b551bd1329e78a5f91a5add89718222a3c0d743228b57434713dd5",
+    "packages/portable/academic-study-coach.zip": "a4f85176587f81d62d589e688af4a3299266ba76a047e42a042d5d5a24e7243b",
+    "packages/portable/medical-evidence-research.zip": "cfcf3da6bff174ace8463907e7c0e32a4f12f44f9481b04e5882c5d17e3a3e09",
+    "packages/portable/mental-health-crisis-support.zip": "b793ea01aed47c8a2e23a61da84a97fc203748525ffe14dc865df7afe69a7903",
+    "packages/portable/physio-clinical-copilot.zip": "d3466bd1a0bdc95b188bafe910d51edb74c884cc771279f3fe7c343714ab71be",
+    "packages/chatgpt/academic-study-coach.zip": "ae0acd015bfa71360cca051f6bac4f0cefbe4d64ff2e17e1c3581d57056efd6b",
+    "packages/chatgpt/medical-evidence-research.zip": "164d627d2c9460c079eba971a0ab4c7a9b792d50818c9b03f8b84adbb51d35cf",
+    "packages/chatgpt/mental-health-crisis-support.zip": "3ed10c5b4a9cb5a1cf074f8d5c93d06448be48d314efc91afe899a4977f10b2b",
+    "packages/chatgpt/physio-clinical-copilot.zip": "b3dd4a70ac1d2d233f227133f682f60801f97fba08e4e7c983a1b2cea848ff0b",
+    "packages/claude/academic-study-coach.zip": "5990e7506916fa34f3d3cd41e553e4c32900eb51fdbc7827f9108e61c2dcde24",
+    "packages/claude/medical-evidence-research.zip": "2fa8003e006a81a360ada749eaed06946017132c44a4a456e1569588abf244bc",
+    "packages/claude/mental-health-crisis-support.zip": "c367559c42169e29ded80772da008a5e37bd55de65ba476eb07f592694d6f94e",
+    "packages/claude/physio-clinical-copilot.zip": "d574937f4136bbf563e3014206f8eeb6362a205942ee064e8e9c6259b2e33e56"
+  },
+  "validation_scope": "structure, hashes and archives; not live account activation or clinical/financial efficacy"
+}

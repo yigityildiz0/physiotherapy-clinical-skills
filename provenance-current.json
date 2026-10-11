@@ -1,0 +1,939 @@
+{
+  "edition": "2026.10.11",
+  "files": [
+    {
+      "path": "academic-study-coach/modules/academic-presentations/MODULE.md",
+      "source_sha256": "463e11f3885cccfbf4bfd61cdc13fad659064283aeb26f4d017b591bf3f1f1b5",
+      "published_sha256": "463e11f3885cccfbf4bfd61cdc13fad659064283aeb26f4d017b591bf3f1f1b5",
+      "bytes": 2333,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/academic-writing/LICENSE",
+      "source_sha256": "c4c2cb62e1646dc8eb2943dd8ffc4e11132e49676117b61e8370398f18205d72",
+      "published_sha256": "c4c2cb62e1646dc8eb2943dd8ffc4e11132e49676117b61e8370398f18205d72",
+      "bytes": 1089,
+      "legal_notice": true,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/academic-writing/MODULE.md",
+      "source_sha256": "522332c97d52ad3052f386cb3f6087486f2e4ae7899bcf7583322a0140b8134c",
+      "published_sha256": "522332c97d52ad3052f386cb3f6087486f2e4ae7899bcf7583322a0140b8134c",
+      "bytes": 29081,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/evals/trigger-cases.json",
+      "source_sha256": "bf88d50944d4826516f1726801bf3b74fcf9ce1de64745f232cdc362d6238d78",
+      "published_sha256": "bf88d50944d4826516f1726801bf3b74fcf9ce1de64745f232cdc362d6238d78",
+      "bytes": 1353,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/examples/audio-overview-prompt.md",
+      "source_sha256": "8c49ff411349802c06b4494a26e9590da7fb7b6d812171c1a8d4bfc79645ff0d",
+      "published_sha256": "8c49ff411349802c06b4494a26e9590da7fb7b6d812171c1a8d4bfc79645ff0d",
+      "bytes": 732,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/examples/dense-study-note-prompt.md",
+      "source_sha256": "047fa9552aa981695795cd641bb08c398f565a7b10cc464ad3567cbcb993ba2e",
+      "published_sha256": "047fa9552aa981695795cd641bb08c398f565a7b10cc464ad3567cbcb993ba2e",
+      "bytes": 842,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/examples/quiz-clinical-vignette-prompt.md",
+      "source_sha256": "f3aff19d6766a089472219d7f0d66bf5ef6f5fdcb07fc426cd711c135622ea97",
+      "published_sha256": "f3aff19d6766a089472219d7f0d66bf5ef6f5fdcb07fc426cd711c135622ea97",
+      "bytes": 694,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/examples/slide-deck-prompt.md",
+      "source_sha256": "22856c121b5213654b2ca267b8ce3d768f94be9d1f1885ce2abec26442fb5b61",
+      "published_sha256": "22856c121b5213654b2ca267b8ce3d768f94be9d1f1885ce2abec26442fb5b61",
+      "bytes": 792,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/MODULE.md",
+      "source_sha256": "9d867bd8b9b0b41328920adbbbeb26185cb825535a7f82c3a06db1a1d80ed487",
+      "published_sha256": "9d867bd8b9b0b41328920adbbbeb26185cb825535a7f82c3a06db1a1d80ed487",
+      "bytes": 4154,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/README.md",
+      "source_sha256": "0d3afd3d8bf1420914cdc0d5f9412142b7cbb60d3893d818eafde8496286df2b",
+      "published_sha256": "0d3afd3d8bf1420914cdc0d5f9412142b7cbb60d3893d818eafde8496286df2b",
+      "bytes": 1276,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/references/notebooklm-artifact-templates.md",
+      "source_sha256": "6eb661c44c57cd053ea1a96fa9cd38dc71bfde120a996bf7d275a95519b1ae5d",
+      "published_sha256": "6eb661c44c57cd053ea1a96fa9cd38dc71bfde120a996bf7d275a95519b1ae5d",
+      "bytes": 7478,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/references/prompt-architecture.md",
+      "source_sha256": "c275a2f81640855c76038c2f5396d44f56206f608de7881e79da262d60e38ffe",
+      "published_sha256": "c275a2f81640855c76038c2f5396d44f56206f608de7881e79da262d60e38ffe",
+      "bytes": 4343,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/references/prompt-patterns.md",
+      "source_sha256": "18d286de4a97bc645ba3468d7bb7b2bce0231954dd83ce595d667748a932fed3",
+      "published_sha256": "18d286de4a97bc645ba3468d7bb7b2bce0231954dd83ce595d667748a932fed3",
+      "bytes": 2761,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/references/quality-checklist.md",
+      "source_sha256": "b329468bd91b199e269c1998334fa2c22d24fe88fc76b4cd803a73acc3cd12b9",
+      "published_sha256": "b329468bd91b199e269c1998334fa2c22d24fe88fc76b4cd803a73acc3cd12b9",
+      "bytes": 1965,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/references/source-strategy.md",
+      "source_sha256": "cc9c57943b0dbda77e3f869f91e114d88f101df50d89fc1c52611cb995cac6f9",
+      "published_sha256": "cc9c57943b0dbda77e3f869f91e114d88f101df50d89fc1c52611cb995cac6f9",
+      "bytes": 3502,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/references/study-exam-playbooks.md",
+      "source_sha256": "9f30ca2523f97d11756b088d649bc5320f5389f4c74166ec70023c914d72e3aa",
+      "published_sha256": "9f30ca2523f97d11756b088d649bc5320f5389f4c74166ec70023c914d72e3aa",
+      "bytes": 4107,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/notebooklm-prompt-architect/SOURCES.md",
+      "source_sha256": "6a7468b457122eaeab50f043ee547e7651ace207d8f25e51ec425ed7b8c421f1",
+      "published_sha256": "6a7468b457122eaeab50f043ee547e7651ace207d8f25e51ec425ed7b8c421f1",
+      "bytes": 1739,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/physio-clinical-english/MODULE.md",
+      "source_sha256": "ccd89d7469eb7318cce2a168b5702f11a618b8e531e6428b98d15988b920f7e6",
+      "published_sha256": "ccd89d7469eb7318cce2a168b5702f11a618b8e531e6428b98d15988b920f7e6",
+      "bytes": 4473,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/physio-clinical-english/references/contextual-teaching.md",
+      "source_sha256": "d04ed1188c9f1f05f19e2eec5a7fef07903402742f46b15121934a9f02ad57aa",
+      "published_sha256": "d04ed1188c9f1f05f19e2eec5a7fef07903402742f46b15121934a9f02ad57aa",
+      "bytes": 3721,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/physio-clinical-english/references/handoff-contract.md",
+      "source_sha256": "536e41f88e463fd17fa002afa0a73d2c9d43df862681a20597e27c0100f272cc",
+      "published_sha256": "536e41f88e463fd17fa002afa0a73d2c9d43df862681a20597e27c0100f272cc",
+      "bytes": 1268,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/physio-clinical-english/references/safety-core.md",
+      "source_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "published_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "bytes": 7135,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/physio-clinical-english/references/specialty-safeguards.md",
+      "source_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "published_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "bytes": 7800,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/physio-study-coach/evals/trigger-cases.json",
+      "source_sha256": "d067428eb154c54e56ec21b2c73566fce9e86a4b73b4ca8f6d6885e8e9a0679a",
+      "published_sha256": "d067428eb154c54e56ec21b2c73566fce9e86a4b73b4ca8f6d6885e8e9a0679a",
+      "bytes": 1387,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/modules/physio-study-coach/MODULE.md",
+      "source_sha256": "d77e258fbeadb9873630059559e9c10ccbe534c4d80f96bbef3fe53b1ae73437",
+      "published_sha256": "645023e45e8fcc11c6b0e091411558acc6153ded7b3d823ed0c007e51d2eab6e",
+      "bytes": 4240,
+      "legal_notice": false,
+      "modified": true
+    },
+    {
+      "path": "academic-study-coach/modules/physio-study-coach/references/study-system.md",
+      "source_sha256": "08844c08c42f8566f615f8a1a130c91a306a0e915b72f0a0b92284d1c493b4c1",
+      "published_sha256": "08844c08c42f8566f615f8a1a130c91a306a0e915b72f0a0b92284d1c493b4c1",
+      "bytes": 2655,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/references/literature-practice.md",
+      "source_sha256": "ec69a0fef2767c7abdc5caea3b46714a318e2d1b2b649131e22de9627360145f",
+      "published_sha256": "ec69a0fef2767c7abdc5caea3b46714a318e2d1b2b649131e22de9627360145f",
+      "bytes": 2217,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "academic-study-coach/SKILL.md",
+      "source_sha256": "45c2772f7b5de27beef361908e9bc0955090fde1c01601f8e5ea15650d511710",
+      "published_sha256": "f3babfacd400e2a76944bb9799e7021fdbb5808f5824e049239c44fc1c28e9e3",
+      "bytes": 7425,
+      "legal_notice": false,
+      "modified": true
+    },
+    {
+      "path": "medical-evidence-research/assets/icon.svg",
+      "source_sha256": "0cdb7990dea3ad89ead04743eeac2dc58c119fb0b8b4a01499a21237f155bc1a",
+      "published_sha256": "0cdb7990dea3ad89ead04743eeac2dc58c119fb0b8b4a01499a21237f155bc1a",
+      "bytes": 843,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/evals/acceptance-cases.json",
+      "source_sha256": "5d25ed51c0c590a86d2440060441df59c5b5ed4a44d8c35f98dc66e16fd32b6d",
+      "published_sha256": "5d25ed51c0c590a86d2440060441df59c5b5ed4a44d8c35f98dc66e16fd32b6d",
+      "bytes": 2932,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/content-access/LICENSE",
+      "source_sha256": "c4c2cb62e1646dc8eb2943dd8ffc4e11132e49676117b61e8370398f18205d72",
+      "published_sha256": "c4c2cb62e1646dc8eb2943dd8ffc4e11132e49676117b61e8370398f18205d72",
+      "bytes": 1089,
+      "legal_notice": true,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/content-access/MODULE.md",
+      "source_sha256": "b4eeb7f0e5ef6d2a89617b1b243129deebaef51a8412dadc5e9e33c329e70137",
+      "published_sha256": "b4eeb7f0e5ef6d2a89617b1b243129deebaef51a8412dadc5e9e33c329e70137",
+      "bytes": 28850,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/physio-evidence-search/MODULE.md",
+      "source_sha256": "d7cb66dd809e3bf82ed0e74df4c124bce3b29ed7169e528238b24ca1fa892e88",
+      "published_sha256": "d7cb66dd809e3bf82ed0e74df4c124bce3b29ed7169e528238b24ca1fa892e88",
+      "bytes": 4530,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/physio-evidence-search/references/handoff-contract.md",
+      "source_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "published_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "bytes": 1373,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/physio-evidence-search/references/methods-and-sources.md",
+      "source_sha256": "5bd2870e8d27b1e7448632627dfbf9843e20252ac623e6b0dede3c80b90dcff5",
+      "published_sha256": "5bd2870e8d27b1e7448632627dfbf9843e20252ac623e6b0dede3c80b90dcff5",
+      "bytes": 6424,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/physio-evidence-search/references/safety-core.md",
+      "source_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "published_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "bytes": 7135,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/physio-evidence-search/references/specialty-safeguards.md",
+      "source_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "published_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "bytes": 7800,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/physio-study-appraisal/MODULE.md",
+      "source_sha256": "f5320731803b6bd2e9ed92b23c9db4c24fb52b468bac7505d9be0efd5df9a210",
+      "published_sha256": "f5320731803b6bd2e9ed92b23c9db4c24fb52b468bac7505d9be0efd5df9a210",
+      "bytes": 4914,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/physio-study-appraisal/references/design-and-appraisal.md",
+      "source_sha256": "87393f526106a39e6fa3b9e488784d4d2fab39fc1677db7cf377d57cba438801",
+      "published_sha256": "87393f526106a39e6fa3b9e488784d4d2fab39fc1677db7cf377d57cba438801",
+      "bytes": 6326,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/physio-study-appraisal/references/handoff-contract.md",
+      "source_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "published_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "bytes": 1373,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/physio-study-appraisal/references/safety-core.md",
+      "source_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "published_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "bytes": 7135,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/physio-study-appraisal/references/specialty-safeguards.md",
+      "source_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "published_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "bytes": 7800,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/scientific-literature-review/agents/openai.yaml",
+      "source_sha256": "5efd939412a24b7239faab3bece0e27bdf36b17bd165f59374ad505606a1da7e",
+      "published_sha256": "5efd939412a24b7239faab3bece0e27bdf36b17bd165f59374ad505606a1da7e",
+      "bytes": 241,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/scientific-literature-review/LICENSE.txt",
+      "source_sha256": "5c793d8fe1c553d49c305f3c178ac360b6d32607bdf1bca06b10d3ba9881d78f",
+      "published_sha256": "5c793d8fe1c553d49c305f3c178ac360b6d32607bdf1bca06b10d3ba9881d78f",
+      "bytes": 1088,
+      "legal_notice": true,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/scientific-literature-review/MODULE.md",
+      "source_sha256": "c1a780672d85d0c3722a96b412ffeeff5487356f192ad39c1b83514e142b03e6",
+      "published_sha256": "c1a780672d85d0c3722a96b412ffeeff5487356f192ad39c1b83514e142b03e6",
+      "bytes": 5681,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/scientific-literature-review/references/citation-verification.md",
+      "source_sha256": "ac632d4c3b2a9e9f1d7d01e496f0613b91f3713587682f18c68c4ba7935f31a2",
+      "published_sha256": "ac632d4c3b2a9e9f1d7d01e496f0613b91f3713587682f18c68c4ba7935f31a2",
+      "bytes": 1449,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/scientific-literature-review/references/database-search.md",
+      "source_sha256": "6a673674596336ccba63fb8f09cd9ea8334231ba71dd5a5a759ddad768753c7d",
+      "published_sha256": "6a673674596336ccba63fb8f09cd9ea8334231ba71dd5a5a759ddad768753c7d",
+      "bytes": 2025,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/modules/scientific-literature-review/references/evidence-appraisal.md",
+      "source_sha256": "7fd38e60eeeea35b569798528f7139ea0461fa91bf95b1e09e290f8f24fabc40",
+      "published_sha256": "7fd38e60eeeea35b569798528f7139ea0461fa91bf95b1e09e290f8f24fabc40",
+      "bytes": 1875,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/references/appraisal-and-synthesis.md",
+      "source_sha256": "ecebab1db8dbbf3b546e0e958fabb43bcd66cd65c2dbd28b7365df8855542956",
+      "published_sha256": "ecebab1db8dbbf3b546e0e958fabb43bcd66cd65c2dbd28b7365df8855542956",
+      "bytes": 7375,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/references/literature-watch.md",
+      "source_sha256": "fc1721ee757f7420f6e05dfb17c146dac8afd64576f1c2627e67018f7bde35fd",
+      "published_sha256": "fc1721ee757f7420f6e05dfb17c146dac8afd64576f1c2627e67018f7bde35fd",
+      "bytes": 11195,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/references/publication-workflow.md",
+      "source_sha256": "503acd47ab425dde3519a45498ad887712aac025c2d9fd253bfcd7e03875c66b",
+      "published_sha256": "503acd47ab425dde3519a45498ad887712aac025c2d9fd253bfcd7e03875c66b",
+      "bytes": 8344,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/references/search-strategy.md",
+      "source_sha256": "b12f7f4ce48d2e750778fd05153f037772ce4bf5d56339ba1d342ead05575226",
+      "published_sha256": "b12f7f4ce48d2e750778fd05153f037772ce4bf5d56339ba1d342ead05575226",
+      "bytes": 9871,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/references/source-map.md",
+      "source_sha256": "18cb2b4f93e46575bc783d7fa3801424642a84096aa14d4ae5287c21e2c7010d",
+      "published_sha256": "18cb2b4f93e46575bc783d7fa3801424642a84096aa14d4ae5287c21e2c7010d",
+      "bytes": 13011,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/references/tool-routing.md",
+      "source_sha256": "44dbf9bc868202b5e21efded3fb1b63d501edd705c0231e6d1ebd87cf9653098",
+      "published_sha256": "44dbf9bc868202b5e21efded3fb1b63d501edd705c0231e6d1ebd87cf9653098",
+      "bytes": 4915,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/references/turkey-applicability.md",
+      "source_sha256": "8830feec3fbcefcb548d4b655f95ddea66b1e6214d87459ef00022d664aced35",
+      "published_sha256": "8830feec3fbcefcb548d4b655f95ddea66b1e6214d87459ef00022d664aced35",
+      "bytes": 4103,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "medical-evidence-research/SKILL.md",
+      "source_sha256": "51a91b0fc6429c1838d30e591761425ce24fc47f0857cfcedb46011a85f18090",
+      "published_sha256": "a27dc9c3069ff71e2cfced71549603c0320c25087d92b859292b5de46d74c50f",
+      "bytes": 15748,
+      "legal_notice": false,
+      "modified": true
+    },
+    {
+      "path": "mental-health-crisis-support/assets/icon.svg",
+      "source_sha256": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91",
+      "published_sha256": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91",
+      "bytes": 667,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "mental-health-crisis-support/SKILL.md",
+      "source_sha256": "a681194234c4cf3941c24593834b5367eda1c92a1d9033bc15405235c86eb6d4",
+      "published_sha256": "390619b91e09680c6272c8dddb51e168bcf6ee4a3fc5027c960e6fec54398ee9",
+      "bytes": 4930,
+      "legal_notice": false,
+      "modified": true
+    },
+    {
+      "path": "physio-clinical-copilot/assets/icon.svg",
+      "source_sha256": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91",
+      "published_sha256": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91",
+      "bytes": 667,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/evals/trigger-cases.json",
+      "source_sha256": "757df43f78508a0e9c4d41ea8b34a7e7d4d386157830d2d1ac1afe046c22d4ab",
+      "published_sha256": "757df43f78508a0e9c4d41ea8b34a7e7d4d386157830d2d1ac1afe046c22d4ab",
+      "bytes": 1776,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/LICENSE",
+      "source_sha256": "5332b0a3bf1d35f38d023d758297f4e5f2eca8e9d16f4559e7bd24f39a395ffd",
+      "published_sha256": "5332b0a3bf1d35f38d023d758297f4e5f2eca8e9d16f4559e7bd24f39a395ffd",
+      "bytes": 1064,
+      "legal_notice": true,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-clinical-reasoning/MODULE.md",
+      "source_sha256": "6ddacd55e0791ccdb47bd2a23a3e35b673840a4a45ba7b420e13943e70d8eeb3",
+      "published_sha256": "6ddacd55e0791ccdb47bd2a23a3e35b673840a4a45ba7b420e13943e70d8eeb3",
+      "bytes": 5743,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-clinical-reasoning/references/clinical-reasoning-framework.md",
+      "source_sha256": "fc2d03ce304b0a7fbcb08036a3c1f01aa890cb4b9aaf70936ff262cacfd65398",
+      "published_sha256": "fc2d03ce304b0a7fbcb08036a3c1f01aa890cb4b9aaf70936ff262cacfd65398",
+      "bytes": 7877,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-clinical-reasoning/references/handoff-contract.md",
+      "source_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "published_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "bytes": 1373,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-clinical-reasoning/references/safety-core.md",
+      "source_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "published_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "bytes": 7135,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-clinical-reasoning/references/specialty-safeguards.md",
+      "source_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "published_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "bytes": 7800,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-documentation/MODULE.md",
+      "source_sha256": "f953346c0547f04b5a2abdd30b5b43c534a29abe1de47d03f078f3adc37086ff",
+      "published_sha256": "f953346c0547f04b5a2abdd30b5b43c534a29abe1de47d03f078f3adc37086ff",
+      "bytes": 4617,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-documentation/references/documentation-framework.md",
+      "source_sha256": "de1dbcd0ed4cfff7b7ea3d43411966ef90f8be3c7860ba8aeeea15597c7d2c2c",
+      "published_sha256": "de1dbcd0ed4cfff7b7ea3d43411966ef90f8be3c7860ba8aeeea15597c7d2c2c",
+      "bytes": 4087,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-documentation/references/handoff-contract.md",
+      "source_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "published_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "bytes": 1373,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-documentation/references/safety-core.md",
+      "source_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "published_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "bytes": 7135,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-documentation/references/specialty-safeguards.md",
+      "source_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "published_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "bytes": 7800,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-outcome-measures/MODULE.md",
+      "source_sha256": "8151e85257995e2e529a97f0fef85020ec8a644b0eaca10ce0e388e79dacb0c8",
+      "published_sha256": "8151e85257995e2e529a97f0fef85020ec8a644b0eaca10ce0e388e79dacb0c8",
+      "bytes": 4938,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-outcome-measures/references/handoff-contract.md",
+      "source_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "published_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "bytes": 1373,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-outcome-measures/references/measurement-selection.md",
+      "source_sha256": "d4d8e992c03078ee5e1e9d8cbdd5d43b724aca4e46a1e36b3e351735efeb5733",
+      "published_sha256": "d4d8e992c03078ee5e1e9d8cbdd5d43b724aca4e46a1e36b3e351735efeb5733",
+      "bytes": 4236,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-outcome-measures/references/safety-core.md",
+      "source_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "published_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "bytes": 7135,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-outcome-measures/references/specialty-safeguards.md",
+      "source_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "published_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "bytes": 7800,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-patient-education/MODULE.md",
+      "source_sha256": "31c3104e64ecdb6fc23ba428a2bb9783ca77e43ab50355686c0f8f45da7e3782",
+      "published_sha256": "31c3104e64ecdb6fc23ba428a2bb9783ca77e43ab50355686c0f8f45da7e3782",
+      "bytes": 3787,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-patient-education/references/handoff-contract.md",
+      "source_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "published_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "bytes": 1373,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-patient-education/references/patient-education-framework.md",
+      "source_sha256": "eb78943bcd4fe5b46aaee27eb7ff7273d263ab701104d7f0b9acc403ae72a757",
+      "published_sha256": "eb78943bcd4fe5b46aaee27eb7ff7273d263ab701104d7f0b9acc403ae72a757",
+      "bytes": 4069,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-patient-education/references/safety-core.md",
+      "source_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "published_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "bytes": 7135,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-patient-education/references/specialty-safeguards.md",
+      "source_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "published_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "bytes": 7800,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-professional-development/MODULE.md",
+      "source_sha256": "ccf1c97e4c3843f5b990232a10c889a90752b8cb45ba6bfe8a359cd33d6f10c3",
+      "published_sha256": "ccf1c97e4c3843f5b990232a10c889a90752b8cb45ba6bfe8a359cd33d6f10c3",
+      "bytes": 4899,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-professional-development/references/handoff-contract.md",
+      "source_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "published_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "bytes": 1373,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-professional-development/references/professional-development-framework.md",
+      "source_sha256": "2213ff8d8f4381406659372440d9c7a4a6e2ce715f0949179f11b87a60808b37",
+      "published_sha256": "2213ff8d8f4381406659372440d9c7a4a6e2ce715f0949179f11b87a60808b37",
+      "bytes": 6842,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-professional-development/references/safety-core.md",
+      "source_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "published_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "bytes": 7135,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-professional-development/references/specialty-safeguards.md",
+      "source_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "published_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "bytes": 7800,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-program-design/MODULE.md",
+      "source_sha256": "b2b43d7e911a09d8802925c3b5217eaa8188947e385b3bb7056e395f3d2db51a",
+      "published_sha256": "b2b43d7e911a09d8802925c3b5217eaa8188947e385b3bb7056e395f3d2db51a",
+      "bytes": 5378,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-program-design/references/handoff-contract.md",
+      "source_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "published_sha256": "ec5fc57d9cea860a2899209c3233f12614fe165df752bb7fb296676c8f38c2de",
+      "bytes": 1373,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-program-design/references/program-design-framework.md",
+      "source_sha256": "273796a3347216f12c2dce272ff906dabe0ab4e419002c76115fc00b9c0fc645",
+      "published_sha256": "273796a3347216f12c2dce272ff906dabe0ab4e419002c76115fc00b9c0fc645",
+      "bytes": 6869,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-program-design/references/safety-core.md",
+      "source_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "published_sha256": "d9928416c1342181d01fd5618e70f7c4a68f44a4ed2d7881b3437f393b9f023a",
+      "bytes": 7135,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/modules/physio-program-design/references/specialty-safeguards.md",
+      "source_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "published_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "bytes": 7800,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/clinical-english.md",
+      "source_sha256": "d04ed1188c9f1f05f19e2eec5a7fef07903402742f46b15121934a9f02ad57aa",
+      "published_sha256": "d04ed1188c9f1f05f19e2eec5a7fef07903402742f46b15121934a9f02ad57aa",
+      "bytes": 3721,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/clinical-reasoning.md",
+      "source_sha256": "fc2d03ce304b0a7fbcb08036a3c1f01aa890cb4b9aaf70936ff262cacfd65398",
+      "published_sha256": "fc2d03ce304b0a7fbcb08036a3c1f01aa890cb4b9aaf70936ff262cacfd65398",
+      "bytes": 7877,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/documentation.md",
+      "source_sha256": "5104c59ac7d9593ef453fa4434af0a4fc042fae327c67e4f620d7aab3a429f4c",
+      "published_sha256": "5104c59ac7d9593ef453fa4434af0a4fc042fae327c67e4f620d7aab3a429f4c",
+      "bytes": 5432,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/evidence-search.md",
+      "source_sha256": "5bd2870e8d27b1e7448632627dfbf9843e20252ac623e6b0dede3c80b90dcff5",
+      "published_sha256": "5bd2870e8d27b1e7448632627dfbf9843e20252ac623e6b0dede3c80b90dcff5",
+      "bytes": 6424,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/outcome-measures.md",
+      "source_sha256": "d4d8e992c03078ee5e1e9d8cbdd5d43b724aca4e46a1e36b3e351735efeb5733",
+      "published_sha256": "d4d8e992c03078ee5e1e9d8cbdd5d43b724aca4e46a1e36b3e351735efeb5733",
+      "bytes": 4236,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/patient-education.md",
+      "source_sha256": "eb78943bcd4fe5b46aaee27eb7ff7273d263ab701104d7f0b9acc403ae72a757",
+      "published_sha256": "eb78943bcd4fe5b46aaee27eb7ff7273d263ab701104d7f0b9acc403ae72a757",
+      "bytes": 4069,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/professional-development.md",
+      "source_sha256": "2213ff8d8f4381406659372440d9c7a4a6e2ce715f0949179f11b87a60808b37",
+      "published_sha256": "2213ff8d8f4381406659372440d9c7a4a6e2ce715f0949179f11b87a60808b37",
+      "bytes": 6842,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/program-design.md",
+      "source_sha256": "273796a3347216f12c2dce272ff906dabe0ab4e419002c76115fc00b9c0fc645",
+      "published_sha256": "273796a3347216f12c2dce272ff906dabe0ab4e419002c76115fc00b9c0fc645",
+      "bytes": 6869,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/routing-and-output.md",
+      "source_sha256": "91b5a7b8d461970d28f1519545813a379e140865568a00e77fb3bc68da117da9",
+      "published_sha256": "91b5a7b8d461970d28f1519545813a379e140865568a00e77fb3bc68da117da9",
+      "bytes": 2473,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/safety-core.md",
+      "source_sha256": "71ed592242fa6df456d49a6aa834d04967922ed0099e84ec037a44c0f20999f7",
+      "published_sha256": "71ed592242fa6df456d49a6aa834d04967922ed0099e84ec037a44c0f20999f7",
+      "bytes": 7225,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/specialty-safeguards.md",
+      "source_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "published_sha256": "9b7d9a672e51b52776acb936146cfb7f6671d4018c30d9a359c4506d3b1289ad",
+      "bytes": 7800,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/references/study-appraisal.md",
+      "source_sha256": "87393f526106a39e6fa3b9e488784d4d2fab39fc1677db7cf377d57cba438801",
+      "published_sha256": "87393f526106a39e6fa3b9e488784d4d2fab39fc1677db7cf377d57cba438801",
+      "bytes": 6326,
+      "legal_notice": false,
+      "modified": false
+    },
+    {
+      "path": "physio-clinical-copilot/SKILL.md",
+      "source_sha256": "19b2f157072a7b38ea34a2741534ff6aa4397667c5631d90fa9f47ba971f066d",
+      "published_sha256": "205de4773c731c6ce3d5ca597c564c701cf8c6434344770c1962cb87c919cb30",
+      "bytes": 14347,
+      "legal_notice": false,
+      "modified": true
+    }
+  ],
+  "licenses": [
+    {
+      "skill": "academic-study-coach",
+      "declared": null,
+      "root_license_files": [],
+      "notice_files": [
+        {
+          "path": "academic-study-coach/modules/academic-writing/LICENSE",
+          "sha256": "c4c2cb62e1646dc8eb2943dd8ffc4e11132e49676117b61e8370398f18205d72"
+        }
+      ],
+      "modules_without_local_or_root_notice": [
+        "academic-presentations",
+        "notebooklm-prompt-architect",
+        "physio-clinical-english",
+        "physio-study-coach"
+      ],
+      "status": "root-license-not-specified"
+    },
+    {
+      "skill": "medical-evidence-research",
+      "declared": null,
+      "root_license_files": [],
+      "notice_files": [
+        {
+          "path": "medical-evidence-research/modules/content-access/LICENSE",
+          "sha256": "c4c2cb62e1646dc8eb2943dd8ffc4e11132e49676117b61e8370398f18205d72"
+        },
+        {
+          "path": "medical-evidence-research/modules/scientific-literature-review/LICENSE.txt",
+          "sha256": "5c793d8fe1c553d49c305f3c178ac360b6d32607bdf1bca06b10d3ba9881d78f"
+        }
+      ],
+      "modules_without_local_or_root_notice": [
+        "physio-evidence-search",
+        "physio-study-appraisal"
+      ],
+      "status": "root-license-not-specified"
+    },
+    {
+      "skill": "mental-health-crisis-support",
+      "declared": null,
+      "root_license_files": [],
+      "notice_files": [],
+      "modules_without_local_or_root_notice": [],
+      "status": "root-license-not-specified"
+    },
+    {
+      "skill": "physio-clinical-copilot",
+      "declared": "MIT",
+      "root_license_files": [
+        "physio-clinical-copilot/LICENSE"
+      ],
+      "notice_files": [
+        {
+          "path": "physio-clinical-copilot/LICENSE",
+          "sha256": "5332b0a3bf1d35f38d023d758297f4e5f2eca8e9d16f4559e7bd24f39a395ffd"
+        }
+      ],
+      "modules_without_local_or_root_notice": [],
+      "status": "evidence-present-scope-review"
+    }
+  ],
+  "license_gaps": [
+    {
+      "skill": "academic-study-coach",
+      "reason": "root-license-not-specified",
+      "modules_without_notice": [
+        "academic-presentations",
+        "notebooklm-prompt-architect",
+        "physio-clinical-english",
+        "physio-study-coach"
+      ]
+    },
+    {
+      "skill": "medical-evidence-research",
+      "reason": "root-license-not-specified",
+      "modules_without_notice": [
+        "physio-evidence-search",
+        "physio-study-appraisal"
+      ]
+    },
+    {
+      "skill": "mental-health-crisis-support",
+      "reason": "root-license-not-specified",
+      "modules_without_notice": []
+    }
+  ],
+  "adaptations": [
+    {
+      "path": "academic-study-coach/modules/physio-study-coach/MODULE.md",
+      "reason": "portable host adaptation / private machine context removal"
+    },
+    {
+      "path": "academic-study-coach/SKILL.md",
+      "reason": "portable host adaptation / private machine context removal"
+    },
+    {
+      "path": "medical-evidence-research/SKILL.md",
+      "reason": "portable host adaptation / private machine context removal"
+    },
+    {
+      "path": "mental-health-crisis-support/SKILL.md",
+      "reason": "portable host adaptation / private machine context removal"
+    },
+    {
+      "path": "physio-clinical-copilot/SKILL.md",
+      "reason": "portable host adaptation / private machine context removal"
+    }
+  ]
+}

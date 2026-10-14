@@ -1,5 +1,5 @@
 {
-  "edition": "2026.10.14",
+  "edition": "2026.10.14.2",
   "files": [
     {
       "path": "academic-study-coach/modules/academic-presentations/MODULE.md",
@@ -971,9 +971,9 @@
     },
     {
       "path": "presentation-studio/scripts/make_reading_guide.py",
-      "source_sha256": "ebc4a6b245d48498adc480a17a07eff685fa049262b2ff81666551635b1f9080",
-      "published_sha256": "ebc4a6b245d48498adc480a17a07eff685fa049262b2ff81666551635b1f9080",
-      "bytes": 11265,
+      "source_sha256": "2db7353db53decfe9bf14b7240848e6dd5821ced2c78082e6aac41cd08e49587",
+      "published_sha256": "2db7353db53decfe9bf14b7240848e6dd5821ced2c78082e6aac41cd08e49587",
+      "bytes": 11242,
       "legal_notice": false,
       "modified": false
     },
@@ -995,9 +995,9 @@
     },
     {
       "path": "presentation-studio/SKILL.md",
-      "source_sha256": "54a767fe478a0969cc454b6e60036a7bd13ce562e9f992c490eeddc3d04bc194",
-      "published_sha256": "f6109d5684ab62f5792e27728df8810060c676ed88021b1005636ae68419b9e1",
-      "bytes": 8351,
+      "source_sha256": "2f9a4c85cee798f67d3bbf4c4ef4ffe4a80b8cadf395617f9be1225cde4067b6",
+      "published_sha256": "bca2be81d24743b20e83f90dde302308ad5e8aa8ebbc2e31b7f68e52eb4ce5e3",
+      "bytes": 8463,
       "legal_notice": false,
       "modified": true
     },

@@ -6,7 +6,8 @@
     "academic-study-coach",
     "medical-evidence-research",
     "mental-health-crisis-support",
-    "physio-clinical-copilot"
+    "physio-clinical-copilot",
+    "presentation-studio"
   ],
   "topics": [
     "agent-skills",
@@ -16,6 +17,6 @@
     "evidence-based"
   ],
   "repository": "physiotherapy-clinical-skills",
-  "base_commit": "9057c7aa078ce91d69f6b6c2e766bf337095b109",
+  "base_commit": "2048440318e10fbff9027b35b844e71219023e0d",
   "canonical_repository": "universal-ai-skill-library"
 }

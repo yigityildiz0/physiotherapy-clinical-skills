@@ -1,36 +1,47 @@
 {
-  "edition": "2026.10.11",
+  "edition": "2026.10.14",
   "repository": "physiotherapy-clinical-skills",
   "canonical": "universal-ai-skill-library",
   "skills": [
     "academic-study-coach",
     "medical-evidence-research",
     "mental-health-crisis-support",
-    "physio-clinical-copilot"
+    "physio-clinical-copilot",
+    "presentation-studio"
   ],
   "claude_parts": {
     "academic-study-coach": 1,
     "medical-evidence-research": 1,
     "mental-health-crisis-support": 1,
-    "physio-clinical-copilot": 1
+    "physio-clinical-copilot": 1,
+    "presentation-studio": 1
   },
   "artifact_sha256": {
-    "downloads/ChatGPT.zip": "254dfa4e673c134c9e530834d8180157650bf77a4b5587a2ccc0a7b8b1a16871",
-    "downloads/Claude.zip": "6ffd90aff241b6411d673473f5de933618a0beb335d5ed0a20011177dd55e503",
-    "downloads/Codex.zip": "ebfa278dc57e78c0fa2edf4262ad6cc139925da2039ade30a452f808c162111c",
-    "downloads/portable-skills.zip": "0f7fbae964b551bd1329e78a5f91a5add89718222a3c0d743228b57434713dd5",
-    "packages/portable/academic-study-coach.zip": "a4f85176587f81d62d589e688af4a3299266ba76a047e42a042d5d5a24e7243b",
+    "downloads/ChatGPT.zip": "5c4b3cef97002c4263005a829b56c9bf789ae3409a71a4c7179319b78ddfa0b0",
+    "downloads/Claude.zip": "a91f7c3085f3c3464db071b02046dbd4965d381842f38ca196c36f948eab2b0f",
+    "downloads/Codex.zip": "8467cc1405e4803d8b287882b9c0a20debbbfd72fbc0f8d254509d65fca1e16d",
+    "downloads/Gemini.zip": "2b609f1ae9969fc6e5b11515bd64804bdd59b864ac03e7ceacf0128c609243c1",
+    "downloads/portable-skills.zip": "36008e165820b1701aaec36472841e7b8ae96e5e4ad7ed324be398cda2e466b6",
+    "packages/portable/academic-study-coach.zip": "0bf6388365fe3d872d3a0ac53643469896e457ebb8706080c0b44ea023283109",
     "packages/portable/medical-evidence-research.zip": "cfcf3da6bff174ace8463907e7c0e32a4f12f44f9481b04e5882c5d17e3a3e09",
     "packages/portable/mental-health-crisis-support.zip": "b793ea01aed47c8a2e23a61da84a97fc203748525ffe14dc865df7afe69a7903",
     "packages/portable/physio-clinical-copilot.zip": "d3466bd1a0bdc95b188bafe910d51edb74c884cc771279f3fe7c343714ab71be",
-    "packages/chatgpt/academic-study-coach.zip": "ae0acd015bfa71360cca051f6bac4f0cefbe4d64ff2e17e1c3581d57056efd6b",
-    "packages/chatgpt/medical-evidence-research.zip": "164d627d2c9460c079eba971a0ab4c7a9b792d50818c9b03f8b84adbb51d35cf",
-    "packages/chatgpt/mental-health-crisis-support.zip": "3ed10c5b4a9cb5a1cf074f8d5c93d06448be48d314efc91afe899a4977f10b2b",
-    "packages/chatgpt/physio-clinical-copilot.zip": "b3dd4a70ac1d2d233f227133f682f60801f97fba08e4e7c983a1b2cea848ff0b",
-    "packages/claude/academic-study-coach.zip": "5990e7506916fa34f3d3cd41e553e4c32900eb51fdbc7827f9108e61c2dcde24",
+    "packages/portable/presentation-studio.zip": "4f1cc6e9202d8211505702b231ee56d91b719b04ddb63e027b86958b2d1fda5f",
+    "packages/chatgpt/academic-study-coach.zip": "d30b8407f08471309fcc213aab0b86f7ac8543c6cd4b95b40a8a842d81c5ed1b",
+    "packages/chatgpt/medical-evidence-research.zip": "b3fb522360bc0d365f44c547ab180b6dbe72cfea17e93654feec9f77716e340d",
+    "packages/chatgpt/mental-health-crisis-support.zip": "f913e038c13b7a855f4394d91639e6600323f067989ad75f3ade08bcb5647cda",
+    "packages/chatgpt/physio-clinical-copilot.zip": "5d6731d0f22ef127a4159813f9570161226be582a9ea700675009e140d7824bb",
+    "packages/chatgpt/presentation-studio.zip": "e7c88a4e84bb708bd3c09c35257fc41ca265c98f344e264db96752ad0ae501e3",
+    "packages/claude/academic-study-coach.zip": "5a58bb1d196e4ae4e0b58f6577bfd51ff5c2a4af591f6d0eae9e6da2853e6422",
     "packages/claude/medical-evidence-research.zip": "2fa8003e006a81a360ada749eaed06946017132c44a4a456e1569588abf244bc",
     "packages/claude/mental-health-crisis-support.zip": "c367559c42169e29ded80772da008a5e37bd55de65ba476eb07f592694d6f94e",
-    "packages/claude/physio-clinical-copilot.zip": "d574937f4136bbf563e3014206f8eeb6362a205942ee064e8e9c6259b2e33e56"
+    "packages/claude/physio-clinical-copilot.zip": "d574937f4136bbf563e3014206f8eeb6362a205942ee064e8e9c6259b2e33e56",
+    "packages/claude/presentation-studio.zip": "b14604db06e5e65c99d3ecfc849561e08c379fa630e7d73296928afd1d03d2eb",
+    "packages/gemini/academic-study-coach.zip": "51c014f523d4bad6421e0b038d3fc04491f2071c0858c83fc408e3ad89aec05d",
+    "packages/gemini/medical-evidence-research.zip": "3395b2fa8067d827e6bce5e780a2a550a6d2ff49529711cf7b7f61bff7ccc916",
+    "packages/gemini/mental-health-crisis-support.zip": "27c8b21775afa38ffe466ab922597dc84885f2091c998ec676e77252225886e6",
+    "packages/gemini/physio-clinical-copilot.zip": "5a0f5b1e3e61b64b872d5fd4e8b76273571b388f3064898e785ca927dc9eef02",
+    "packages/gemini/presentation-studio.zip": "7ee07d6fe642269b736809cc1346bab21bcb78b9e22ab1e9e0d8b5ef0e2ed7f2"
   },
   "validation_scope": "structure, hashes and archives; not live account activation or clinical/financial efficacy"
 }

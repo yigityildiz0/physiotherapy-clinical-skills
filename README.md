@@ -7,7 +7,7 @@
 
 [English](README.md) · [Türkçe](README.tr.md)
 
-![Edition](https://img.shields.io/badge/edition-2026.10.14.2-0f6e8c) [![Validate](https://github.com/yigityildiz0/physiotherapy-clinical-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/actions/workflows/validate.yml) [![Release](https://img.shields.io/github/v/release/yigityildiz0/physiotherapy-clinical-skills?display_name=tag&sort=date)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/releases/latest) ![Skills](https://img.shields.io/badge/skills-5-b0303f) ![Languages](https://img.shields.io/badge/EN%20%2B%20TR-guides-e0a43a)
+![Edition](https://img.shields.io/badge/edition-2026.10.14.3-0f6e8c) [![Validate](https://github.com/yigityildiz0/physiotherapy-clinical-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/actions/workflows/validate.yml) [![Release](https://img.shields.io/github/v/release/yigityildiz0/physiotherapy-clinical-skills?display_name=tag&sort=date)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/releases/latest) ![Skills](https://img.shields.io/badge/skills-5-b0303f) ![Languages](https://img.shields.io/badge/EN%20%2B%20TR-guides-e0a43a)
 
 **Clinical reasoning, rehabilitation evidence, study support and crisis response workflows.**
 
@@ -15,13 +15,14 @@
 
 [Start here](docs/INSTALL.md) · [Browse the catalog](https://yigityildiz0.github.io/universal-ai-skill-library/) · [Downloads](DOWNLOADS.md) · [Maintenance model](MAINTAINING.md)
 
-## New in 2026.10.14.2
+## New in 2026.10.14.3
 
 - **presentation-studio** (new): complete editable PowerPoint decks — course rules as defaults, slide plan, real licensed photos, JS and Python deck kits, timed speaker notes with pronunciations, PowerPoint render QA, `pptx_audit.py` and a pre-talk reading guide.
 - `slides` is renamed **html-slides** and only handles browser decks; PowerPoint requests route to presentation-studio.
 - academic-study-coach, office-docs-qa, design and design-system now hand deck building to presentation-studio (fixes a broken PPTX QA link).
 - Gemini packages (CLI folders and filtered Gemini app uploads), an installation table for every app and a real GitHub Release with SHA-256 checksums.
 - One ZIP per skill for every app, never split into parts; Claude gets grouped bulk-upload ZIPs on the Desktop edition.
+- Claude.ai upload fix: large skills stay ONE skill under the 200-file limit (supporting files packed in resources.zip inside the skill).
 
 ## Works with
 
@@ -94,4 +95,4 @@ The canonical source is [Universal AI Skill Library](https://github.com/yigityil
 - Source licenses remain attached; no blanket third-party license is assumed.
 
 ---
-Maintained by [Yigit Yildiz](https://github.com/yigityildiz0) · Source edition 2026.10.14.2
+Maintained by [Yigit Yildiz](https://github.com/yigityildiz0) · Source edition 2026.10.14.3

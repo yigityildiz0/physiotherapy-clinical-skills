@@ -7,7 +7,7 @@
 
 [English](README.md) · [Türkçe](README.tr.md)
 
-![Edition](https://img.shields.io/badge/edition-2026.10.14.2-0f6e8c) [![Validate](https://github.com/yigityildiz0/physiotherapy-clinical-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/actions/workflows/validate.yml) [![Release](https://img.shields.io/github/v/release/yigityildiz0/physiotherapy-clinical-skills?display_name=tag&sort=date)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/releases/latest) ![Skills](https://img.shields.io/badge/skill-5-b0303f) ![Languages](https://img.shields.io/badge/EN%20%2B%20TR-guides-e0a43a)
+![Edition](https://img.shields.io/badge/edition-2026.10.14.3-0f6e8c) [![Validate](https://github.com/yigityildiz0/physiotherapy-clinical-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/actions/workflows/validate.yml) [![Release](https://img.shields.io/github/v/release/yigityildiz0/physiotherapy-clinical-skills?display_name=tag&sort=date)](https://github.com/yigityildiz0/physiotherapy-clinical-skills/releases/latest) ![Skills](https://img.shields.io/badge/skill-5-b0303f) ![Languages](https://img.shields.io/badge/EN%20%2B%20TR-guides-e0a43a)
 
 **Klinik akıl yürütme, rehabilitasyon kanıtları, öğrenme ve kriz desteği iş akışları.**
 
@@ -15,13 +15,14 @@
 
 [Başla](docs/INSTALL.md) · [Katalog](https://yigityildiz0.github.io/universal-ai-skill-library/) · [İndirmeler](DOWNLOADS.md) · [Bakım modeli](MAINTAINING.md)
 
-## Bu sürümde yeni (2026.10.14.2)
+## Bu sürümde yeni (2026.10.14.3)
 
 - **presentation-studio** (yeni): düzenlenebilir PowerPoint sunumu baştan sona — hoca kuralları varsayılan, slayt planı, lisanslı gerçek fotoğraflar, JS ve Python tasarım kitleri, süreli ve okunuşlu konuşmacı notları, PowerPoint render kontrolü, `pptx_audit.py` ve sunum öncesi okuma kılavuzu.
 - `slides` artık **html-slides**: yalnız tarayıcı sunumları; PowerPoint istekleri presentation-studio'ya gider.
 - academic-study-coach, office-docs-qa, design ve design-system sunum üretimini presentation-studio'ya devreder (kırık PPTX bağlantısı düzeltildi).
 - Gemini paketleri (CLI klasörleri ve filtreli Gemini uygulaması yüklemeleri), her uygulama için kurulum tablosu ve SHA-256 özetli gerçek GitHub Release.
 - Her uygulama için skill başına tek ZIP, parçalara bölünmez; masaüstü sürümünde Claude için toplu yükleme grupları var.
+- Claude.ai yükleme düzeltmesi: büyük skill'ler 200 dosya sınırının altında TEK skill olarak kalır (yardımcı dosyalar skill içinde resources.zip'e paketlenir).
 
 ## Hangi uygulamada?
 
@@ -94,4 +95,4 @@ Ana kaynak [Universal AI Skill Library](https://github.com/yigityildiz0/universa
 - Kaynak lisansları korunur; bütün üçüncü taraf içeriğine tek lisans varsayılmaz.
 
 ---
-Maintained by [Yigit Yildiz](https://github.com/yigityildiz0) · Source edition 2026.10.14.2
+Maintained by [Yigit Yildiz](https://github.com/yigityildiz0) · Source edition 2026.10.14.3

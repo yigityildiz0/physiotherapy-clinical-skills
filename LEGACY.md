@@ -6,4 +6,4 @@ Use README and DOWNLOADS for the current edition. Old tags/downloads may contain
 
 Türkçe: Güncel kapsam current-release.json ile tanımlanır. Eski katalog ve kaynaklar izlenebilirlik için korunur; eski sayı ve test iddiaları güncel kapsam değildir. Güncel README/indirmeleri kullan. Eski sürümler farklı sağlayıcı/host varsayımları içerebilir. Gemini Deep Research güncel sürümde yoktur; eski `slides` artık `html-slides` (yalnız tarayıcı sunumu), PowerPoint işleri `presentation-studio`'da.
 
-[Previous README at the preserved base commit](https://github.com/yigityildiz0/physiotherapy-clinical-skills/blob/514e3ba0f76c8a0e293ac33736e9a4e5fdb780c0/README.md).
+[Previous README at the preserved base commit](https://github.com/yigityildiz0/physiotherapy-clinical-skills/blob/2e66099d25a7184be0b670dacf720ad22f05c34c/README.md).
